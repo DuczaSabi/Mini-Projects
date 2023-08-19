@@ -1,0 +1,30 @@
+#currGenre{
+    left: 40%;
+}
+
+#genreSelector{
+    text-align: center;
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 700px;
+    border-radius: 0px 0px 250px 250px;
+    left: 32%;
+    top: -5%;
+    background-color: hotpink;
+    padding-top: 200px;
+}
+
+#genreSelector > p {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#genreSelector > button{
+    width: 55px;
+    height: 75px;
+    border-radius: 10px;
+    border: 2px solid hotpink;
+    background-color: pink;
+}

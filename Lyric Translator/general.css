@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    background-image: url(Images/Bgs/Pop.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: pink;
+}
+
+/* #nextGenre{
+     transform: rotate(30deg);
+}*/
