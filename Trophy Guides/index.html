@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="headerStyle.css">
+    <script src="scripts.js"></script>
+    <title>Guides</title>
+</head>
+<body>
+    <header>
+        <div class="categ">
+            <button class="diffButton" onclick="onClickFunction('diffDropdown')">Difficulty</button>
+            <div class="diff-content" id="diffDropdown">
+                <button class="categOption stat-joke" onclick="ListByDiff('joke')">Joke</button>
+                <button class="categOption stat-easy" onclick="ListByDiff('easy')">Easy</button>
+                <button class="categOption stat-medium" onclick="ListByDiff('medium')">Medium</button>
+                <button class="categOption stat-hard" onclick="ListByDiff('hard')">Hard</button>
+                <button class="categOption stat-extreme" onclick="ListByDiff('extreme')">Extreme</button>
+            </div>
+        </div>
+
+        <div class="categ">
+            <button class="hrsButton" onclick="onClickFunction('hrsDropdown')">Hours</button>
+            <div class="hrs-content" id="hrsDropdown">
+                <button class="categOption stat-joke" onclick="ListByHrs('joke')">20 Hours -</button>
+                <button class="categOption stat-easy" onclick="ListByHrs('easy')">21-40 Hours</button>
+                <button class="categOption stat-medium" onclick="ListByHrs('medium')">41-60 Hours</button>
+                <button class="categOption stat-hard" onclick="ListByHrs('hard')">61-80 Hours</button>
+                <button class="categOption stat-extreme" onclick="ListByHrs('extreme')">80 Hours +</button>
+            </div>
+        </div>
+
+        <div class="categ">
+            <button class="allButton" onclick="ListAllGames()">All</button>
+        </div>
+        <h2 id="hoursLeft">Hours: ???</h2>
+        <h2 id="gamesLeft">Games: ???</h2>
+    </header>
+
+    <div id="games"></div>
+</body>
+</html>
